@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebChat - Real Time Chat Application</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="images/whats_app_logo.png" alt="whats_app_logo" />
+      <h1 class="heading">Welcome to WebChat Application</h1>
+    </nav>
+
+    <div class="container">
+      <!-- <div class="messages right">Subhajit: Hey ankit, how are you?</div>
+      <div class="messages left">
+        Ankit: Hey subhajit, I am fine, how about you? 
+      </div> -->
+
+      <img id="scrollLastImage" src="images/angle_down.png" alt="" />
+    </div>
+
+    <div class="send">
+      <form action="#" id="send-container">
+        <input type="text" id="inputMsg" name="inputMsg" />
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+    <!-- the below script adds the server js file here -->
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- the below script adds the clent js file here -->
+    <script src="js/client.js"></script>
+  </body>
+</html>

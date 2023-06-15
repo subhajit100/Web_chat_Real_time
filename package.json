@@ -1,0 +1,15 @@
+{
+  "name": "chat_app_heroku_deploy",
+  "version": "1.0.0",
+  "description": "Real Time Chat App deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Subhajit Adhikary",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.2"
+  }
+}
